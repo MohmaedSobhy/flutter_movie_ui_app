@@ -13,7 +13,6 @@ class CustomeRowText extends StatelessWidget {
       children: [
         Text(
           title,
-          style: TextStyle(),
         ),
         TextButton(
           onPressed: () {},

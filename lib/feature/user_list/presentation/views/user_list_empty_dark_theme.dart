@@ -3,18 +3,18 @@ import 'package:movie_app/core/theme/app_color.dart';
 import 'package:movie_app/core/utils/app_images_assets.dart';
 import 'package:movie_app/core/utils/app_string.dart';
 
-class UserListEmpty extends StatelessWidget {
-  const UserListEmpty({super.key});
+class UserListEmptyDarkTheme extends StatelessWidget {
+  const UserListEmptyDarkTheme({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return const Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         SizedBox(
           width: 250,
           child: Image(
-            image: AssetImage(AppImageAssets.imagesEmptyListLight),
+            image: AssetImage(AppImageAssets.imagesEmptyListDark),
             fit: BoxFit.scaleDown,
           ),
         ),

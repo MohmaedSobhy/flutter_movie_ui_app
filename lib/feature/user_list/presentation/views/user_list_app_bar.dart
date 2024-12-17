@@ -26,7 +26,6 @@ class UserListAppBar extends StatelessWidget {
           const Text(
             AppString.myList,
             style: TextStyle(
-              color: AppColors.black,
               fontWeight: FontWeight.bold,
             ),
           ),

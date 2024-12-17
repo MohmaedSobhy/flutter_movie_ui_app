@@ -9,7 +9,7 @@ class AppThemeCubit extends Cubit<AppThemeState> {
   AppThemeCubit() : super(AppThemeInitial());
 
   final String themekey = 'Theme Key';
-  AppThemeCubit._() : super(AppThemeInitial());
+  AppThemeCubit._() : super(LightThemeState());
 
   static AppThemeCubit instanse = AppThemeCubit._();
 

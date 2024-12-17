@@ -9,19 +9,16 @@ class MovieApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BlocProvider.value(
-      value: AppThemeCubit.instanse..checkTheme(),
-      child: BlocBuilder<AppThemeCubit, AppThemeState>(
-        builder: (context, state) {
-          return MaterialApp(
-            debugShowCheckedModeBanner: false,
-            theme: (state is LightThemeState)
-                ? AppTheme.lightMode
-                : AppTheme.darkMode,
-            home: const MainScreen(),
-          );
-        },
-      ),
+    return BlocBuilder<AppThemeCubit, AppThemeState>(
+      builder: (context, state) {
+        return MaterialApp(
+          debugShowCheckedModeBanner: false,
+          theme: (state is LightThemeState)
+              ? AppTheme.lightMode
+              : AppTheme.darkMode,
+          home: const MainScreen(),
+        );
+      },
     );
   }
 }

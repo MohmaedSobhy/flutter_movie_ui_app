@@ -18,6 +18,36 @@ class AppImageAssets {
   /// assets/images/batman.png
   static const String imagesBatman = "assets/images/batman.png";
 
+  /// Assets for imagesDownloadMovieFive
+  /// assets/images/download_movie_five.png
+  static const String imagesDownloadMovieFive =
+      "assets/images/download_movie_five.png";
+
+  /// Assets for imagesDownloadMovieFour
+  /// assets/images/download_movie_four.png
+  static const String imagesDownloadMovieFour =
+      "assets/images/download_movie_four.png";
+
+  /// Assets for imagesDownloadMovieOne
+  /// assets/images/download_movie_one.png
+  static const String imagesDownloadMovieOne =
+      "assets/images/download_movie_one.png";
+
+  /// Assets for imagesDownloadMovieSix
+  /// assets/images/download_movie_six.png
+  static const String imagesDownloadMovieSix =
+      "assets/images/download_movie_six.png";
+
+  /// Assets for imagesDownloadMovieThree
+  /// assets/images/download_movie_three.png
+  static const String imagesDownloadMovieThree =
+      "assets/images/download_movie_three.png";
+
+  /// Assets for imagesDownloadMovieTwo
+  /// assets/images/download_movie_two.png
+  static const String imagesDownloadMovieTwo =
+      "assets/images/download_movie_two.png";
+
   /// Assets for imagesEmptyListDark
   /// assets/images/empty_list_dark.png
   static const String imagesEmptyListDark = "assets/images/empty_list_dark.png";

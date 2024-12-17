@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:movie_app/core/utils/app_images_assets.dart';
-import 'package:movie_app/core/utils/app_string.dart';
 
-class UserListAppBar extends StatelessWidget {
-  const UserListAppBar({super.key});
+class CustomeAppBar extends StatelessWidget {
+  final String title;
+  final String imageAsset;
+  const CustomeAppBar({
+    super.key,
+    required this.title,
+    required this.imageAsset,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -15,16 +19,16 @@ class UserListAppBar extends StatelessWidget {
           SizedBox(
             height: 25,
             child: SvgPicture.asset(
-              AppImageAssets.imagesAppLogo,
+              imageAsset,
               fit: BoxFit.scaleDown,
             ),
           ),
           const SizedBox(
             width: 10,
           ),
-          const Text(
-            AppString.myList,
-            style: TextStyle(
+          Text(
+            title,
+            style: const TextStyle(
               fontWeight: FontWeight.bold,
             ),
           ),

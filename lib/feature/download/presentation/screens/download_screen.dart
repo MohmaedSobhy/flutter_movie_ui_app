@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:movie_app/core/utils/app_images_assets.dart';
+
 import 'package:movie_app/core/utils/app_string.dart';
 import 'package:movie_app/core/widgets/custome_app_bar.dart';
 import 'package:movie_app/feature/download/presentation/views/download_movie_listv_iew.dart';
@@ -16,8 +16,10 @@ class DownloadScreen extends StatelessWidget {
           SliverToBoxAdapter(
             child: CustomeAppBar(
               title: AppString.download,
-              imageAsset: AppImageAssets.imagesAppLogo,
             ),
+          ),
+          SliverToBoxAdapter(
+            child: SizedBox(),
           ),
           DownloadMovieListView(),
         ],

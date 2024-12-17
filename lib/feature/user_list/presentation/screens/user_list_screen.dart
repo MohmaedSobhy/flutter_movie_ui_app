@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:movie_app/core/theme/controller/app_theme_cubit.dart';
-import 'package:movie_app/core/utils/app_images_assets.dart';
 import 'package:movie_app/core/utils/app_string.dart';
 import 'package:movie_app/core/widgets/custome_app_bar.dart';
 import 'package:movie_app/feature/user_list/presentation/views/user_list_empty_dark_theme.dart';
@@ -14,10 +13,9 @@ class UserListScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: const PreferredSize(
-        preferredSize: Size(double.infinity, 50),
+        preferredSize: Size(double.infinity, 56),
         child: CustomeAppBar(
           title: AppString.myList,
-          imageAsset: AppImageAssets.imagesAppLogo,
         ),
       ),
       body: Center(

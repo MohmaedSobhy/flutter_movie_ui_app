@@ -7,8 +7,10 @@ import 'package:movie_app/movie_app.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await StorageHelper.init();
-  runApp(BlocProvider.value(
-    value: AppThemeCubit.instanse..checkTheme(),
-    child: const MovieApp(),
-  ));
+  runApp(
+    BlocProvider.value(
+      value: AppThemeCubit.instanse..checkTheme(),
+      child: const MovieApp(),
+    ),
+  );
 }

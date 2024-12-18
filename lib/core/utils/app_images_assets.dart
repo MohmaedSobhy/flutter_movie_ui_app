@@ -218,4 +218,6 @@ class AppImageAssets {
   /// Assets for imagesTravel
   /// assets/images/travel.png
   static const String imagesTravel = "assets/images/travel.png";
+
+  static const String userProfile = "assets/images/user_profile.png";
 }

@@ -22,4 +22,48 @@ abstract class AppString {
   static const String language = 'Language';
   static const String helpCenter = 'Help Center';
   static const String privacyPolicy = 'Privacy policy';
+  static const String apply = 'Apply';
+  static const String reset = 'Reset';
+
+  static const String sortandFilter = 'Sort & Filter';
+
+  static const String categories = 'Categories';
+  static const String regions = 'Regions';
+  static const String genre = 'Genre';
+
+  static const String time = 'Time/Periods';
+
+  static const String sort = 'Sort';
+
+  static const List<String> moviesCatgories = [
+    'Movies',
+    'US',
+    'Anime',
+    'Series',
+    'Latest Release'
+  ];
+
+  static const List<String> timeAndPeriods = [
+    '2024',
+    '2023',
+    '2022',
+    '2021',
+    '2020'
+  ];
+
+  static const List<String> genreList = [
+    'Action',
+    'Adventure',
+    'Comedy',
+    'Horror',
+    'Fantasy'
+  ];
+
+  static const List<String> regionsList = [
+    'Hollywood ',
+    'Canda',
+    'Egypt',
+    'Spain',
+    'Japan',
+  ];
 }

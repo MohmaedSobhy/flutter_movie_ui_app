@@ -20,8 +20,7 @@ A sleek and simple movie app built with **Flutter**, perfect for practicing your
 Download the **Simple Movie App** and start practicing Flutter development.  
 
 📌 **Links:**  
-👉 **GitHub Repository:** [Insert Link]  
-👉 **Demo Video:** [Insert Link]  
+👉 **Demo Video:** [https://youtu.be/x9A2mC1RaWI]  
 
 🎉 Build, learn, and have fun with this minimalist movie app!  
 

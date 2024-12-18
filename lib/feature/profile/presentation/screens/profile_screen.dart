@@ -5,6 +5,7 @@ import 'package:movie_app/core/widgets/custome_app_bar.dart';
 import 'package:movie_app/feature/profile/data/model/profile_option_model.dart';
 import 'package:movie_app/feature/profile/presentation/views/premium_card_view.dart';
 import 'package:movie_app/feature/profile/presentation/views/user_profile_info.dart';
+import 'package:movie_app/feature/profile/presentation/widgets/profile_item_dark_mode.dart';
 import 'package:movie_app/feature/profile/presentation/widgets/profile_item_widget.dart';
 
 class ProfileScreen extends StatelessWidget {
@@ -63,7 +64,7 @@ class ProfileScreen extends StatelessWidget {
             ),
           ),
           SliverToBoxAdapter(
-            child: ProfileItemWidget(
+            child: ProfileItemDarkMode(
               profileOptionModel: ProfileOptionModel.getAllProfileOptions()[5],
               onTap: () {
                 AppThemeCubit.instanse.changeTheme();

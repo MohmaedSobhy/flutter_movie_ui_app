@@ -25,6 +25,7 @@ abstract class AppTheme {
   );
 
   static ThemeData darkMode = ThemeData(
+    useMaterial3: false,
     appBarTheme: const AppBarTheme(
       backgroundColor: AppColors.dark1,
       iconTheme: IconThemeData(color: AppColors.white),

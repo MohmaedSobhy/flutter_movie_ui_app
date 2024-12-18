@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:movie_app/core/theme/app_dynamic_color.dart';
-import 'package:movie_app/core/utils/app_string.dart';
-import 'package:movie_app/feature/explore/presentation/widgets/filter_item_widget.dart';
-import 'package:movie_app/feature/explore/presentation/widgets/filteration_header_widget.dart';
+import 'package:movie_app/feature/explore/presentation/views/filteration_scroll_body_view.dart';
 
 class FiltarationDialogeView extends StatelessWidget {
   const FiltarationDialogeView({super.key});
@@ -23,37 +21,8 @@ class FiltarationDialogeView extends StatelessWidget {
         maxChildSize: 0.8,
         expand: false,
         builder: (context, scroll) {
-          return CustomScrollView(
-            controller: scroll,
-            slivers: const [
-              SliverToBoxAdapter(
-                child: FilterationHeaderWidget(),
-              ),
-              SliverToBoxAdapter(
-                child: FilterItemWidget(
-                  title: AppString.categories,
-                  choise: AppString.moviesCatgories,
-                ),
-              ),
-              SliverToBoxAdapter(
-                child: FilterItemWidget(
-                  title: AppString.regions,
-                  choise: AppString.regionsList,
-                ),
-              ),
-              SliverToBoxAdapter(
-                child: FilterItemWidget(
-                  title: AppString.genre,
-                  choise: AppString.genreList,
-                ),
-              ),
-              SliverToBoxAdapter(
-                child: FilterItemWidget(
-                  title: AppString.time,
-                  choise: AppString.timeAndPeriods,
-                ),
-              ),
-            ],
+          return FilterationScrollBodyView(
+            scrollController: scroll,
           );
         },
       ),

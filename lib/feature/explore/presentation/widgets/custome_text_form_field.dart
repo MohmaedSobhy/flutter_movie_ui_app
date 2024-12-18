@@ -18,8 +18,8 @@ class CustomeTextFormField extends StatelessWidget {
             hintText: AppString.search,
             enabledBorder: OutlineInputBorder(
               borderRadius: BorderRadius.circular(10),
-              borderSide: const BorderSide(
-                color: AppColors.grey100,
+              borderSide: BorderSide(
+                color: AppDynamicColorBuilder.getGrey100AndDark2(context),
               ),
             ),
             focusedBorder: OutlineInputBorder(

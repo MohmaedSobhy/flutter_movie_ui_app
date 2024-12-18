@@ -15,15 +15,6 @@ A sleek and simple movie app built with **Flutter**, perfect for practicing your
 📂 **Movie Details Page**  
 - Tap on a movie to view more information, including a brief description and poster image.  
 
----
-
-### **Why Choose This App?**  
-This app is perfect for:  
-- **Beginners** looking to practice Flutter development.  
-- **UI/UX Learners** aiming to build simple yet effective designs.  
-- **Developers** experimenting with APIs or state management.  
-
----
 
 🚀 **Get Started Today!**  
 Download the **Simple Movie App** and start practicing Flutter development.  
@@ -34,4 +25,3 @@ Download the **Simple Movie App** and start practicing Flutter development.
 
 🎉 Build, learn, and have fun with this minimalist movie app!  
 
-#Flutter #MovieApp #SimpleUI #LearnFlutter #MobileDevelopment  
